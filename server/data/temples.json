@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Tirumala Venkateswara Temple",
+    "description": "The Tirumala Venkateswara Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati in Tirupati district of Andhra Pradesh, India. The Temple is dedicated to Venkateswara, a form of Vishnu.",
+    "history": "The temple was constructed over a period of time starting from 300 AD. It is one of the richest temples in the world.",
+    "architecture": "Dravidian architecture with the main vimana, the Ananda Nilayam, completely plated with gold.",
+    "deity": "Lord Venkateswara",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "S Mada St, Tirumala, Tirupati, Andhra Pradesh 517504",
+    "coordinates": {
+      "lat": 13.6833,
+      "lng": 79.3472
+    },
+    "featuredImage": "tirumala-venkateswara.jpg",
+    "galleryImages": [
+      "tirumala-venkateswara.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Pilgrimage"
+    ],
+    "openingTime": "03:00 AM",
+    "closingTime": "01:30 AM",
+    "facilities": [
+      "Free Meals (Annadanam)",
+      "Free Bus",
+      "Kalyanakatta (Tonsuring)"
+    ],
+    "dressCode": "Traditional Wear. Men: Dhoti/Kurta. Women: Saree/Chudidar with Dupatta.",
+    "nearbyAttractions": [
+      "Silathoranam",
+      "Sri Padmavathi Ammavari Temple"
+    ],
+    "faqs": [
+      {
+        "question": "Is darshan free?",
+        "answer": "Sarva Darshan is free, while Special Darshan costs ₹300."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Meenakshi Amman Temple",
+    "description": "A historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India.",
+    "history": "The temple is at the center of the ancient temple city of Madurai and was built by the Pandyan Emperor.",
+    "architecture": "Dravidian architecture, famous for its 14 gopurams, painted in bright colors and covered with figures of deities.",
+    "deity": "Goddess Meenakshi & Lord Sundareshwarar",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Madurai Main, Madurai, Tamil Nadu 625001",
+    "coordinates": {
+      "lat": 9.9195,
+      "lng": 78.1193
+    },
+    "featuredImage": "meenakshi-amman.jpg",
+    "galleryImages": [
+      "meenakshi-amman.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Ancient"
+    ],
+    "openingTime": "05:00 AM",
+    "closingTime": "10:00 PM",
+    "facilities": [
+      "Drinking Water",
+      "Restrooms",
+      "Museum"
+    ],
+    "dressCode": "Strictly traditional. No shorts or sleeveless.",
+    "nearbyAttractions": [
+      "Thirumalai Nayakkar Mahal",
+      "Gandhi Memorial Museum"
+    ],
+    "faqs": [
+      {
+        "question": "Is there an entry fee?",
+        "answer": "General entry is free, but special darshan tickets are available."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Shree Jagannath Temple",
+    "description": "An important Hindu temple dedicated to Jagannath, a form of Vishnu, in Puri in the state of Odisha on the eastern coast of India.",
+    "history": "The present temple was rebuilt from the 10th century onwards, on the site of an earlier temple, and begun by King Anantavarman Chodaganga Deva.",
+    "architecture": "Kalinga architecture with a massive vimana topped by the Neelachakra.",
+    "deity": "Lord Jagannath, Lord Balabhadra, Devi Subhadra",
+    "city": "Puri",
+    "state": "Odisha",
+    "address": "Bana Maha, Puri, Odisha 752001",
+    "coordinates": {
+      "lat": 19.8049,
+      "lng": 85.8179
+    },
+    "featuredImage": "jagannath-puri.jpg",
+    "galleryImages": [
+      "jagannath-puri.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Char Dham"
+    ],
+    "openingTime": "05:00 AM",
+    "closingTime": "11:00 PM",
+    "facilities": [
+      "Mahaprasad",
+      "Shoe Stand"
+    ],
+    "dressCode": "Traditional Indian attire. Non-Hindus are not allowed inside.",
+    "nearbyAttractions": [
+      "Puri Beach",
+      "Konark Sun Temple"
+    ],
+    "faqs": [
+      {
+        "question": "Can non-Hindus enter?",
+        "answer": "No, but they can view the temple from the Raghunandan Library platform."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Kashi Vishwanath Temple",
+    "description": "One of the most famous Hindu temples dedicated to Lord Shiva. It is located in Varanasi, Uttar Pradesh, India.",
+    "history": "The temple has been destroyed and rebuilt several times. The current structure was built on an adjacent site by the Maratha ruler Ahilyabai Holkar of Indore in 1780.",
+    "architecture": "Nagara style architecture with gold-plated domes.",
+    "deity": "Lord Shiva (Vishwanath)",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Lahori Tola, Varanasi, Uttar Pradesh 221001",
+    "coordinates": {
+      "lat": 25.3109,
+      "lng": 83.0107
+    },
+    "featuredImage": "kashi-vishwanath.jpg",
+    "galleryImages": [
+      "kashi-vishwanath.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Jyotirlinga"
+    ],
+    "openingTime": "03:00 AM",
+    "closingTime": "11:00 PM",
+    "facilities": [
+      "Locker Room",
+      "Help Desk",
+      "Wheelchair Access"
+    ],
+    "dressCode": "Decent attire required.",
+    "nearbyAttractions": [
+      "Dashashwamedh Ghat",
+      "Sarnath"
+    ],
+    "faqs": [
+      {
+        "question": "What are the timing for Mangala Aarti?",
+        "answer": "Mangala Aarti happens from 3:00 AM to 4:00 AM daily."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Kedarnath Temple",
+    "description": "Kedarnath Temple is a Hindu temple dedicated to Lord Shiva, located on the Garhwal Himalayan range near the Mandakini river in Uttarakhand.",
+    "history": "The temple was initially built by Pandavas and is one of the twelve Jyotirlingas, the holiest Hindu shrines of Shiva.",
+    "architecture": "The temple is built of massive, evenly cut grey stone slabs with a wooden roof and a golden kalasha on the spire.",
+    "deity": "Lord Shiva (Kedarnath)",
+    "city": "Kedarnath",
+    "state": "Uttarakhand",
+    "address": "Kedarnath, Uttarakhand 246445",
+    "coordinates": {
+      "lat": 30.7352,
+      "lng": 79.0669
+    },
+    "featuredImage": "kedarnath.jpg",
+    "galleryImages": [
+      "kedarnath.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Jyotirlinga",
+      "Char Dham"
+    ],
+    "openingTime": "04:00 AM",
+    "closingTime": "09:00 PM",
+    "facilities": [
+      "Trekking Path",
+      "Helicopter Service",
+      "Medical Camps"
+    ],
+    "dressCode": "Warm traditional clothing.",
+    "nearbyAttractions": [
+      "Bhairavnath Temple",
+      "Gandhi Sarovar"
+    ],
+    "faqs": [
+      {
+        "question": "When is the temple open?",
+        "answer": "The temple is open only between the months of April (Akshaya Tritiya) and November (Kartik Purnima)."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Somnath Temple",
+    "description": "The Somnath temple located in Prabhas Patan near Veraval in Saurashtra on the western coast of Gujarat, is believed to be the first among the twelve Jyotirlinga shrines of Shiva.",
+    "history": "The temple was reconstructed several times in the past after repeated destruction by several Muslim invaders and rulers.",
+    "architecture": "Chalukya style architecture, built with intricately carved stone.",
+    "deity": "Lord Shiva (Somnath)",
+    "city": "Veraval",
+    "state": "Gujarat",
+    "address": "Somnath Mandir Rd, Prabhas Patan, Gujarat 362268",
+    "coordinates": {
+      "lat": 20.888,
+      "lng": 70.401
+    },
+    "featuredImage": "somnath.jpg",
+    "galleryImages": [
+      "somnath.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Jyotirlinga"
+    ],
+    "openingTime": "06:00 AM",
+    "closingTime": "10:00 PM",
+    "facilities": [
+      "Light and Sound Show",
+      "Museum",
+      "Cloak Room"
+    ],
+    "dressCode": "Traditional attire. Belts and electronics not allowed inside.",
+    "nearbyAttractions": [
+      "Triveni Sangam",
+      "Bhalka Tirth"
+    ],
+    "faqs": [
+      {
+        "question": "Are electronics allowed?",
+        "answer": "No, mobile phones and cameras are prohibited inside the premises."
+      }
+    ],
+    "isFeatured": true,
+    "isActive": true
+  },
+  {
+    "name": "Mahakaleshwar Jyotirlinga",
+    "description": "Mahakaleshwar Jyotirlinga is a Hindu temple dedicated to Lord Shiva and is one of the twelve Jyotirlingas, shrines which are said to be the most sacred abodes of Lord Shiva.",
+    "history": "The presiding deity, Lord Shiva in the lingam form is believed to be Swayambhu, deriving currents of power from within itself.",
+    "architecture": "Maratha, Bhumija and Chalukya styles of architecture with a massive spire and beautifully carved pillars.",
+    "deity": "Lord Shiva (Mahakala)",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Jaisinghpura, Ujjain, Madhya Pradesh 456006",
+    "coordinates": {
+      "lat": 23.1827,
+      "lng": 75.7682
+    },
+    "featuredImage": "mahakaleshwar.jpg",
+    "galleryImages": [
+      "mahakaleshwar.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Jyotirlinga"
+    ],
+    "openingTime": "03:00 AM",
+    "closingTime": "11:00 PM",
+    "facilities": [
+      "Bhasma Aarti Booking",
+      "Annakshetra",
+      "Wheelchair Support"
+    ],
+    "dressCode": "Dhoti for men and Saree for women during Bhasma Aarti.",
+    "nearbyAttractions": [
+      "Kal Bhairav Temple",
+      "Ram Ghat"
+    ],
+    "faqs": [
+      {
+        "question": "What is Bhasma Aarti?",
+        "answer": "It is the most famous aarti performed early in the morning using sacred ash."
+      }
+    ],
+    "isFeatured": false,
+    "isActive": true
+  },
+  {
+    "name": "Brihadeeswara Temple",
+    "description": "Brihadeeswara Temple is a Hindu temple dedicated to Shiva located in Thanjavur, Tamil Nadu. It is one of the largest South Indian temples and an exemplary example of fully realized Dravidian architecture.",
+    "history": "Built by Raja Raja Chola I between 1003 and 1010 AD. The temple is a part of the UNESCO World Heritage Site known as the Great Living Chola Temples.",
+    "architecture": "Dravidian architecture carved entirely out of granite with a vimana standing 216 ft tall.",
+    "deity": "Lord Shiva",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "address": "Membalam Rd, Balaganapathy Nagar, Thanjavur, Tamil Nadu 613001",
+    "coordinates": {
+      "lat": 10.7828,
+      "lng": 79.1318
+    },
+    "featuredImage": "brihadeeswara.jpg",
+    "galleryImages": [
+      "brihadeeswara.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Ancient",
+      "UNESCO"
+    ],
+    "openingTime": "06:00 AM",
+    "closingTime": "08:30 PM",
+    "facilities": [
+      "Parking",
+      "Guide Services",
+      "Wheelchair Support"
+    ],
+    "dressCode": "Modest and traditional clothing.",
+    "nearbyAttractions": [
+      "Thanjavur Maratha Palace",
+      "Saraswathi Mahal Library"
+    ],
+    "faqs": [
+      {
+        "question": "Is there an entry fee?",
+        "answer": "Entry to the temple is free for all devotees and tourists."
+      }
+    ],
+    "isFeatured": false,
+    "isActive": true
+  },
+  {
+    "name": "Konark Sun Temple",
+    "description": "Konark Sun Temple is a 13th-century CE Sun temple at Konark about 35 kilometres northeast from Puri on the coastline of Odisha.",
+    "history": "Built by King Narasimhadeva I of the Eastern Ganga Dynasty in 1250 CE. It was designed in the shape of a colossal chariot.",
+    "architecture": "Kalinga architecture in the form of a gigantic chariot with 24 elaborately carved wheels pulled by seven horses.",
+    "deity": "Lord Surya (Sun God)",
+    "city": "Konark",
+    "state": "Odisha",
+    "address": "Konark, Odisha 752111",
+    "coordinates": {
+      "lat": 19.8876,
+      "lng": 86.0945
+    },
+    "featuredImage": "konark-sun-temple.jpg",
+    "galleryImages": [
+      "konark-sun-temple.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Ancient",
+      "UNESCO"
+    ],
+    "openingTime": "06:00 AM",
+    "closingTime": "08:00 PM",
+    "facilities": [
+      "Museum",
+      "Light and Sound Show",
+      "Guides"
+    ],
+    "dressCode": "Comfortable clothing, mostly visited as a monument.",
+    "nearbyAttractions": [
+      "Chandrabhaga Beach",
+      "ASI Museum"
+    ],
+    "faqs": [
+      {
+        "question": "Can we enter the main sanctum?",
+        "answer": "The main sanctum is filled with sand to prevent its collapse, but visitors can explore the massive outer structure."
+      }
+    ],
+    "isFeatured": false,
+    "isActive": true
+  },
+  {
+    "name": "Lingaraja Temple",
+    "description": "Lingaraja Temple is a Hindu temple dedicated to Harihara, a form of Shiva and Vishnu, and is one of the oldest temples in Bhubaneswar, the capital of Odisha.",
+    "history": "Built by King Jajati Keshari in the 11th century CE. It is the most prominent landmark of Bhubaneswar city.",
+    "architecture": "Kalinga style of architecture representing its quintessence with a central tower 180 ft tall.",
+    "deity": "Harihara (Shiva-Vishnu)",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Lingaraj Temple Rd, Old Town, Bhubaneswar, Odisha 751002",
+    "coordinates": {
+      "lat": 20.2382,
+      "lng": 85.8338
+    },
+    "featuredImage": "lingaraja.jpg",
+    "galleryImages": [
+      "lingaraja.jpg"
+    ],
+    "categories": [
+      "Hindu",
+      "Ancient"
+    ],
+    "openingTime": "05:00 AM",
+    "closingTime": "09:00 PM",
+    "facilities": [
+      "Cloak Room",
+      "Shoe Stand",
+      "Prasad counter"
+    ],
+    "dressCode": "Traditional Indian attire. Non-Hindus are not allowed inside.",
+    "nearbyAttractions": [
+      "Bindu Sagar Lake",
+      "Muktesvara Temple"
+    ],
+    "faqs": [
+      {
+        "question": "Is photography allowed?",
+        "answer": "No, strictly no photography inside the temple premises."
+      }
+    ],
+    "isFeatured": false,
+    "isActive": true
+  }
+]

@@ -1,0 +1,159 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 0000024C 4E45:6EE3
+D:\PROJECT\CLIENT\SRC
+¦   App.css
+¦   App.jsx
+¦   icons.js
+¦   index.css
+¦   main.jsx
+¦   
++---api
+¦       axiosInstance.js
+¦       
++---assets
+¦   ¦   hero.png
+¦   ¦   react.svg
+¦   ¦   vite.svg
+¦   ¦   
+¦   +---temples
+¦           brihadeeswara.jpg
+¦           index.js
+¦           jagannath-puri.jpg
+¦           kashi-vishwanath.jpg
+¦           kedarnath.jpg
+¦           konark-sun-temple.jpg
+¦           lingaraja.jpg
+¦           mahakaleshwar.jpg
+¦           meenakshi-amman.jpg
+¦           somnath.jpg
+¦           tirumala-venkateswara.jpg
+¦           
++---components
+¦   ¦   Chatbot.jsx
+¦   ¦   MockPaymentGateway.jsx
+¦   ¦   Navbar.jsx
+¦   ¦   
+¦   +---admin
+¦   ¦       AdminChart.jsx
+¦   ¦       AdminStatCard.jsx
+¦   ¦       
+¦   +---dashboard
+¦   ¦       BookingCard.jsx
+¦   ¦       DashboardHeader.jsx
+¦   ¦       
+¦   +---home
+¦   ¦       FeaturedTemples.jsx
+¦   ¦       HomeHero.jsx
+¦   ¦       WhyChooseUs.jsx
+¦   ¦       
+¦   +---layout
+¦   ¦       AuthCard.jsx
+¦   ¦       AuthLayout.jsx
+¦   ¦       ContentLayout.jsx
+¦   ¦       MainContent.jsx
+¦   ¦       Page.jsx
+¦   ¦       Section.jsx
+¦   ¦       SectionHeader.jsx
+¦   ¦       Sidebar.jsx
+¦   ¦       
+¦   +---temple
+¦   ¦       SearchBar.jsx
+¦   ¦       TempleCard.jsx
+¦   ¦       TempleHero.jsx
+¦   ¦       TempleInfo.jsx
+¦   ¦       TempleReviews.jsx
+¦   ¦       
+¦   +---ui
+¦           Badge.jsx
+¦           Button.jsx
+¦           Card.jsx
+¦           DataState.jsx
+¦           EmptyState.jsx
+¦           Input.jsx
+¦           Loader.jsx
+¦           PageHeader.jsx
+¦           Table.jsx
+¦           
++---config
++---constants
++---context
+¦       AuthContext.jsx
+¦       
++---features
+¦   +---auth
+¦   ¦   +---components
+¦   ¦           LoginForm.jsx
+¦   ¦           RegisterForm.jsx
+¦   ¦           
+¦   +---booking
+¦   ¦   ¦   index.js
+¦   ¦   ¦   
+¦   ¦   +---api
+¦   ¦   +---components
+¦   ¦   ¦       BookingWizard.jsx
+¦   ¦   ¦       DevoteeCard.jsx
+¦   ¦   ¦       SlotCard.jsx
+¦   ¦   ¦       StepDevotees.jsx
+¦   ¦   ¦       StepHeader.jsx
+¦   ¦   ¦       StepReview.jsx
+¦   ¦   ¦       StepSlots.jsx
+¦   ¦   ¦       StepSuccess.jsx
+¦   ¦   ¦       
+¦   ¦   +---hooks
+¦   ¦   ¦       useBooking.js
+¦   ¦   ¦       useBookingWizard.js
+¦   ¦   ¦       useDevotees.js
+¦   ¦   ¦       
+¦   ¦   +---utils
+¦   +---temple
+¦       ¦   index.js
+¦       ¦   
+¦       +---api
+¦       ¦       templeApi.js
+¦       ¦       
+¦       +---components
+¦       ¦       TempleResults.jsx
+¦       ¦       
+¦       +---hooks
+¦               useTemple.js
+¦               
++---hooks
+¦       useAdmin.js
+¦       useBookings.js
+¦       useDebounce.js
+¦       useDonations.js
+¦       useReviews.js
+¦       useSlots.js
+¦       
++---layouts
+¦       AdminLayout.jsx
+¦       
++---pages
+¦   ¦   Dashboard.jsx
+¦   ¦   Home.jsx
+¦   ¦   Login.jsx
+¦   ¦   Register.jsx
+¦   ¦   TempleDetails.jsx
+¦   ¦   TempleList.jsx
+¦   ¦   
+¦   +---admin
+¦           AdminBookings.jsx
+¦           AdminDashboard.jsx
+¦           AdminDonations.jsx
+¦           AdminReviews.jsx
+¦           AdminSettings.jsx
+¦           AdminSlots.jsx
+¦           AdminTempleForm.jsx
+¦           AdminTemples.jsx
+¦           AdminUsers.jsx
+¦           
++---services
+¦       adminService.js
+¦       bookingService.js
+¦       donationService.js
+¦       reviewService.js
+¦       slotService.js
+¦       
++---utils
+        generatePDF.js
+        

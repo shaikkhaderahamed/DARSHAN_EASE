@@ -1,0 +1,11 @@
+import tirumala from './tirumala-venkateswara.jpg';  
+import meenakshi from './meenakshi-amman.jpg';  
+import jagannath from './jagannath-puri.jpg';  
+import kashi from './kashi-vishwanath.jpg';  
+import kedarnath from './kedarnath.jpg';  
+import somnath from './somnath.jpg';  
+import mahakaleshwar from './mahakaleshwar.jpg';  
+import brihadeeswara from './brihadeeswara.jpg';  
+import konark from './konark-sun-temple.jpg';  
+import lingaraja from './lingaraja.jpg';  
+export const templeImages = { 'Tirumala Venkateswara Temple': tirumala, 'Meenakshi Amman Temple': meenakshi, 'Shree Jagannath Temple': jagannath, 'Kashi Vishwanath Temple': kashi, 'Kedarnath Temple': kedarnath, 'Somnath Temple': somnath, 'Mahakaleshwar Jyotirlinga': mahakaleshwar, 'Brihadeeswara Temple': brihadeeswara, 'Konark Sun Temple': konark, 'Lingaraja Temple': lingaraja }; 

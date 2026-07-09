@@ -1,0 +1,879 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron-50: #fff9f0;
+  --color-saffron-100: #fff0d6;
+  --color-saffron-500: #ff9933;
+  --color-saffron-600: #e67e22;
+  --color-saffron-700: #cc6600;
+  --color-saffron-800: #b35900;
+  --color-saffron-900: #7a3e00;
+
+  --color-gold-400: #f1c40f;
+  --color-gold-500: #d4af37;
+
+  --color-maroon-700: #800000;
+  --color-maroon-900: #4a0000;
+
+  --color-ivory-100: #fffff0;
+  --color-ivory-200: #fdf5e6;
+
+  --color-darkbrown-800: #3e2723;
+  --color-darkbrown-900: #261714;
+
+  --font-sans: "Poppins", "Inter", sans-serif;
+  --font-serif: "Cinzel", "Georgia", serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-darkbrown-900 bg-ivory-100 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold;
+  }
+}
+
+@layer components {
+  /* Layout */
+  .page {
+    @apply min-h-screen bg-gray-50 pt-24 pb-12 px-4 md:px-8;
+  }
+  
+  .section {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  /* Typography */
+  .title {
+    @apply text-4xl md:text-5xl font-serif font-bold text-darkbrown-800;
+  }
+  
+  .subtitle {
+    @apply text-gray-600 max-w-2xl mt-4;
+  }
+
+  /* Section Header */
+  .section-head {
+    @apply text-center mb-12 pt-8;
+  }
+
+  .section-divider {
+    @apply h-1 w-24 bg-saffron-500 mx-auto rounded-full mb-6;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-2xl border border-gray-100 shadow-sm p-6;
+  }
+
+  .card-hover {
+    @apply hover:shadow-xl transition-all duration-300;
+  }
+
+  .stats-card {
+    @apply rounded-3xl p-6 shadow-lg relative overflow-hidden bg-gradient-to-br from-saffron-500 to-saffron-600 text-white;
+  }
+
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-xl rounded-2xl p-6;
+  }
+  
+  /* Buttons */
+  .btn {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed bg-gradient-to-r from-saffron-500 to-saffron-600 text-white hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed bg-white text-darkbrown-900 border border-saffron-100 hover:bg-saffron-50 hover:shadow-md hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed bg-transparent border border-gray-200 text-gray-700 hover:bg-gray-50;
+  }
+
+  .btn-danger {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed bg-red-50 text-red-600 hover:bg-red-100 border border-transparent;
+  }
+
+  /* Forms & Inputs */
+  .input {
+    @apply w-full p-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-saffron-500 transition-shadow;
+  }
+
+  /* Badges */
+  .badge {
+    @apply px-3 py-1 rounded-full text-xs font-semibold flex items-center w-fit shadow-sm;
+  }
+
+  .badge-success {
+    @apply bg-green-100 text-green-700;
+  }
+
+  .badge-warning {
+    @apply bg-yellow-100 text-yellow-700;
+  }
+
+  .badge-danger {
+    @apply bg-red-100 text-red-700;
+  }
+
+  .badge-primary {
+    @apply bg-saffron-100 text-saffron-800;
+  }
+
+  /* Tables */
+  .table-container {
+    @apply bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden;
+  }
+
+  .table-header {
+    @apply text-xs text-gray-500 uppercase bg-gray-50 border-b border-gray-100 px-6 py-4 font-semibold;
+  }
+
+  .table-row {
+    @apply hover:bg-gray-50/50 transition-colors border-b border-gray-50 last:border-0;
+  }
+  
+  .table-cell {
+    @apply px-6 py-4;
+  }
+
+  /* Home Hero */
+  .home-hero {
+    @apply relative h-[90vh] flex items-center justify-center overflow-hidden;
+  }
+
+  .home-hero .image-container {
+    @apply absolute inset-0 z-0;
+  }
+
+  .home-hero .image {
+    @apply w-full h-full object-cover object-center filter brightness-[0.6] sepia-[0.3];
+  }
+
+  .home-hero .overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-darkbrown-900 via-transparent to-transparent opacity-80;
+  }
+
+  .home-hero .content {
+    @apply relative z-10 text-center px-4 max-w-4xl mx-auto mt-20;
+  }
+
+  .home-hero .title {
+    @apply text-5xl md:text-7xl font-serif text-ivory-100 font-bold mb-6 tracking-wide drop-shadow-lg;
+  }
+  
+  .home-hero .title-highlight {
+    @apply text-saffron-500;
+  }
+
+  .home-hero .subtitle {
+    @apply text-lg md:text-xl text-ivory-200 mb-10 max-w-2xl mx-auto font-light;
+  }
+
+  .home-search {
+    @apply flex flex-col md:flex-row gap-3 justify-center items-center max-w-2xl mx-auto bg-white/10 p-2 rounded-3xl backdrop-blur-md border border-white/20;
+  }
+  
+  .home-search .input-wrapper {
+    @apply relative w-full md:flex-1;
+  }
+  
+  .home-search .icon {
+    @apply absolute left-4 top-3.5 text-gray-300 w-5 h-5;
+  }
+
+  .home-search .input {
+    @apply w-full pl-12 pr-4 py-3 bg-white/20 text-white placeholder-gray-200 border border-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-saffron-500 focus:bg-white/30 transition-all;
+  }
+  
+  .home-search .btn {
+    @apply w-full md:w-auto py-3 whitespace-nowrap;
+  }
+
+  /* Featured Temples */
+  .featured-section {
+    @apply py-24 px-4 md:px-8;
+  }
+
+  .featured-section .header {
+    @apply text-center mb-16;
+  }
+
+  .featured-section .title {
+    @apply text-4xl font-serif font-bold text-darkbrown-900 mb-4;
+  }
+  
+  .featured-section .divider {
+    @apply h-1 w-24 bg-saffron-500 mx-auto rounded-full mb-6;
+  }
+
+  .featured-section .subtitle {
+    @apply text-gray-500 mx-auto text-lg max-w-2xl;
+  }
+
+  .featured-section .grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+  
+  .featured-section .footer {
+    @apply mt-16 text-center;
+  }
+  
+  .featured-section .loading {
+    @apply py-20 flex justify-center;
+  }
+
+  /* Features / Why Choose Us */
+  .features {
+    @apply bg-darkbrown-900 text-ivory-100 py-24 px-4 md:px-8;
+  }
+
+  .features .container {
+    @apply max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center;
+  }
+
+  .features .title {
+    @apply text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight;
+  }
+
+  .features .subtitle {
+    @apply text-gray-300 mb-8 text-lg leading-relaxed;
+  }
+
+  .features .list {
+    @apply space-y-6;
+  }
+
+  .features .item {
+    @apply flex items-start;
+  }
+
+  .features .text-content {
+    @apply ml-4;
+  }
+  
+  .features .item-title {
+    @apply text-xl font-medium text-white;
+  }
+  
+  .features .item-desc {
+    @apply mt-1 text-gray-400;
+  }
+
+  .features .icon-box {
+    @apply flex-shrink-0 mt-1 w-8 h-8 rounded-full bg-saffron-500/20 flex items-center justify-center border border-saffron-500/50;
+  }
+
+  .features .icon {
+    @apply w-2.5 h-2.5 rounded-full bg-saffron-500;
+  }
+
+  .features .image-wrapper {
+    @apply relative rounded-3xl overflow-hidden shadow-2xl h-[600px];
+  }
+
+  .features .image {
+    @apply w-full h-full object-cover;
+  }
+  
+  .features .image-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-darkbrown-900/90 to-transparent;
+  }
+
+  .features .testimonial {
+    @apply absolute bottom-10 left-10 right-10 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl;
+  }
+  
+  .features .testimonial-quote {
+    @apply italic text-lg font-serif text-white;
+  }
+  
+  .features .testimonial-author {
+    @apply mt-4 font-medium text-saffron-500;
+  }
+
+  /* Temple List Page */
+  .temple-list-page {
+    @apply min-h-screen bg-gradient-to-b from-amber-50 to-orange-50/30;
+  }
+
+  .temple-list-hero {
+    @apply relative bg-darkbrown-900 text-white py-20 px-4 text-center overflow-hidden;
+  }
+
+  .temple-list-hero::before {
+    content: '';
+    @apply absolute inset-0 bg-darkbrown-900/20;
+  }
+
+  .temple-list-hero .content {
+    @apply relative z-10;
+  }
+
+  .temple-list-hero .title {
+    @apply text-4xl md:text-6xl font-serif font-bold mb-4 text-white;
+  }
+
+  .temple-list-hero .subtitle {
+    @apply text-amber-100 text-lg max-w-2xl mx-auto;
+  }
+
+  /* Temple Grid */
+  .temple-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8;
+  }
+
+  /* Temple Card */
+  .temple-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 flex flex-col hover:shadow-2xl transition-all duration-300 relative;
+  }
+  
+  .temple-card .image-wrapper {
+    @apply h-56 relative overflow-hidden;
+  }
+  
+  .temple-card .image {
+    @apply w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700;
+  }
+  
+  .temple-card .rating {
+    @apply absolute top-4 right-4 bg-white/90 backdrop-blur px-2.5 py-1 rounded-full text-sm font-medium text-darkbrown-800 flex items-center shadow-sm;
+  }
+  
+  .temple-card .category {
+    @apply absolute top-4 left-4 bg-saffron-500 text-white px-2.5 py-1 rounded-full text-xs font-semibold shadow-sm;
+  }
+  
+  .temple-card .body {
+    @apply p-6 flex flex-col flex-grow;
+  }
+  
+  .temple-card .name {
+    @apply text-xl font-serif font-bold text-darkbrown-800 line-clamp-1;
+  }
+  
+  .temple-card .city {
+    @apply flex items-center text-gray-500 text-sm mt-2 mb-4;
+  }
+  
+  .temple-card .desc {
+    @apply text-gray-600 text-sm line-clamp-2 mb-4 flex-grow;
+  }
+  
+  .temple-card .footer {
+    @apply flex justify-between items-center border-t border-gray-100 pt-4 mt-auto;
+  }
+  
+  .temple-card .time {
+    @apply flex items-center text-xs text-gray-500 font-medium;
+  }
+  
+  .temple-card .btn {
+    @apply text-saffron-600 hover:text-saffron-700 font-semibold text-sm;
+  }
+
+  /* Temple Hero */
+  .hero {
+    @apply h-[50vh] relative;
+  }
+
+  .hero .image {
+    @apply w-full h-full object-cover;
+  }
+
+  .hero .overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-darkbrown-900 via-darkbrown-900/60 to-transparent;
+  }
+
+  .hero .content {
+    @apply absolute bottom-0 left-0 w-full p-8 md:p-16 max-w-7xl mx-auto;
+  }
+
+  .hero .back-link {
+    @apply text-ivory-200 hover:text-white flex items-center mb-4 text-sm font-medium transition-colors;
+  }
+
+  .hero .category {
+    @apply bg-saffron-500 text-white text-xs px-3 py-1 rounded-full font-semibold tracking-wide uppercase;
+  }
+
+  .temple-hero .title {
+    @apply text-4xl md:text-6xl font-serif font-bold text-white mb-2 leading-tight;
+  }
+
+  .temple-hero .location {
+    @apply text-lg text-gray-200 flex items-center mb-8;
+  }
+  
+  /* Reviews */
+  .reviews-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+  }
+  
+  .review-card {
+    @apply p-4 bg-gray-50 rounded-xl border border-gray-100 transition-shadow hover:shadow-md;
+  }
+  
+  .review-header {
+    @apply flex items-center mb-3;
+  }
+  
+  .review-avatar {
+    @apply w-10 h-10 bg-saffron-100 rounded-full flex items-center justify-center mr-3 shrink-0;
+  }
+  
+  .review-avatar .icon {
+    @apply w-5 h-5 text-saffron-600;
+  }
+
+  /* Temple Info */
+  .info {
+    @apply space-y-12;
+  }
+
+  .title {
+    @apply text-3xl font-serif font-bold text-darkbrown-800 mb-6 flex items-center;
+  }
+
+  .card {
+    @apply bg-white p-6 md:p-8 rounded-3xl shadow-xl border border-gray-100;
+  }
+
+  .text {
+    @apply text-gray-600 leading-relaxed text-lg;
+  }
+
+  .stats {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 bg-ivory-100/50 p-6 rounded-2xl border border-ivory-200;
+  }
+
+  .label {
+    @apply text-xs text-gray-500 uppercase font-semibold block mb-1;
+  }
+
+  .value {
+    @apply text-darkbrown-800 font-medium text-lg flex items-center;
+  }
+
+  .tag {
+    @apply text-xs bg-white border border-gray-200 px-3 py-1 rounded-full text-darkbrown-800 flex items-center;
+  }
+
+  /* Booking Wizard */
+  .booking {
+    @apply sticky top-24 bg-white p-6 md:p-8 rounded-3xl shadow-xl border border-gray-100 relative overflow-hidden;
+  }
+
+  .booking .strip {
+    @apply absolute top-0 left-0 w-full h-2 bg-saffron-500;
+  }
+
+  .booking .title {
+    @apply text-2xl font-serif font-bold text-darkbrown-900;
+  }
+
+  .slots {
+    @apply space-y-3;
+  }
+  
+  .slots-step .title {
+    @apply text-sm font-medium text-gray-700 mb-4 flex items-center;
+  }
+  
+  .slots-step .empty {
+    @apply text-center p-6 bg-gray-50 rounded-2xl border border-gray-100 text-gray-500;
+  }
+
+  .slot {
+    @apply w-full flex items-center justify-between p-4 rounded-xl border-2 transition-all duration-200;
+  }
+
+  .slot.active {
+    @apply border-saffron-500 bg-saffron-50;
+  }
+
+  .slot:not(.active):not(:disabled) {
+    @apply border-gray-200 hover:border-saffron-500 hover:bg-gray-50;
+  }
+
+  .slot:disabled {
+    @apply opacity-50 cursor-not-allowed bg-gray-50 border-gray-200;
+  }
+  
+  .slot .header {
+    @apply flex justify-between items-start mb-2 w-full;
+  }
+  
+  .slot .info {
+    @apply text-left;
+  }
+  
+  .slot .date {
+    @apply font-semibold text-darkbrown-800;
+  }
+  
+  .slot .time {
+    @apply text-sm text-gray-500;
+  }
+  
+  .slot .tag {
+    @apply text-xs px-2.5 py-1 rounded-full font-medium;
+  }
+  
+  .slot .tag.vip {
+    @apply bg-purple-100 text-purple-700;
+  }
+  
+  .slot .tag.general {
+    @apply bg-green-100 text-green-700;
+  }
+  
+  .slot .footer {
+    @apply flex justify-between items-center text-sm w-full;
+  }
+  
+  .slot .seats {
+    @apply font-medium;
+  }
+  
+  .slot .seats.low {
+    @apply text-red-500;
+  }
+  
+  .slot .seats.high {
+    @apply text-saffron-600;
+  }
+  
+  .slot .price {
+    @apply font-bold text-darkbrown-900;
+  }
+  
+  .step-header {
+    @apply flex items-center justify-between mb-4;
+  }
+  
+  .step-header .back-btn {
+    @apply text-sm text-gray-500 hover:text-darkbrown-800 flex items-center;
+  }
+  
+  .step-header .badge {
+    @apply text-xs font-semibold bg-saffron-100 text-saffron-800 px-3 py-1 rounded-full;
+  }
+
+  .devotees-form .field-group {
+    @apply mb-6;
+  }
+  
+  .devotees-form .label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+  
+  .devotees-form .list {
+    @apply space-y-6 max-h-[50vh] overflow-y-auto pr-2;
+  }
+
+  .devotee {
+    @apply bg-ivory-100/50 border border-ivory-200 p-5 rounded-2xl mb-6 relative;
+  }
+  
+  .devotee .badge {
+    @apply absolute -top-3 left-4 bg-white px-2 text-xs font-bold text-saffron-600 border border-saffron-100 rounded-full;
+  }
+  
+  .devotee .body {
+    @apply mt-2 space-y-4;
+  }
+  
+  .devotee .row-2 {
+    @apply grid grid-cols-2 gap-3;
+  }
+  
+  .devotee .row-3 {
+    @apply grid grid-cols-3 gap-3;
+  }
+
+  .summary {
+    @apply bg-ivory-100/50 border border-ivory-200 p-5 rounded-2xl mb-6;
+  }
+  
+  .summary .title {
+    @apply font-semibold text-darkbrown-900 mb-4 border-b border-gray-200 pb-2;
+  }
+  
+  .summary .list {
+    @apply space-y-3 text-sm;
+  }
+  
+  .summary .row {
+    @apply flex justify-between;
+  }
+  
+  .summary .label {
+    @apply text-gray-500;
+  }
+  
+  .summary .value {
+    @apply font-medium;
+  }
+  
+  .summary .total-row {
+    @apply border-t border-gray-200 pt-3 mt-3 flex justify-between items-center;
+  }
+  
+  .summary .total-label {
+    @apply text-gray-700 font-semibold;
+  }
+  
+  .summary .total-value {
+    @apply text-xl font-bold text-saffron-600;
+  }
+
+  .success {
+    @apply text-center py-8;
+  }
+  
+  .success .icon-wrapper {
+    @apply w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6;
+  }
+  
+  .success .icon {
+    @apply w-10 h-10 text-green-500;
+  }
+  
+  .success .subtitle {
+    @apply text-gray-500 mb-8;
+  }
+  
+  .success .actions {
+    @apply space-y-3 flex flex-col;
+  }
+
+  .qr {
+    @apply bg-white p-4 inline-block rounded-xl border border-gray-200 shadow-sm mb-6;
+  }
+  
+  .qr .image {
+    @apply w-32 h-32 mx-auto;
+  }
+  
+  .qr .text {
+    @apply text-xs font-mono mt-2 text-gray-500;
+  }
+
+  /* Navbar */
+  .navbar {
+    @apply bg-white/80 backdrop-blur-lg border-b border-gray-100 sticky top-0 z-50;
+  }
+  .navbar-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .navbar-content {
+    @apply flex justify-between h-20 items-center;
+  }
+  .navbar-brand {
+    @apply flex items-center;
+  }
+  .navbar-logo {
+    @apply text-2xl font-serif font-bold text-darkbrown-900 tracking-tight;
+  }
+  .navbar-logo-highlight {
+    @apply text-saffron-600;
+  }
+  .navbar-links {
+    @apply flex items-center space-x-6;
+  }
+  .navbar-link {
+    @apply text-gray-600 hover:text-saffron-600 font-medium transition-colors;
+  }
+  .navbar-btn-logout {
+    @apply ml-2;
+  }
+  .navbar-btn-signup {
+    @apply ml-2 shadow-md shadow-saffron-500/20;
+  }
+
+  /* Mock Payment Gateway */
+  .payment-modal-overlay {
+    @apply fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4;
+  }
+  .payment-modal {
+    @apply bg-white rounded-3xl shadow-2xl w-full max-w-md overflow-hidden relative;
+  }
+  .payment-modal-header {
+    @apply bg-darkbrown-900 p-6 text-center;
+  }
+  .payment-modal-icon {
+    @apply w-10 h-10 text-saffron-500 mx-auto mb-2;
+  }
+  .payment-modal-title {
+    @apply text-xl font-semibold text-white;
+  }
+  .payment-modal-subtitle {
+    @apply text-gray-400 text-sm mt-1;
+  }
+  .payment-modal-body {
+    @apply p-8;
+  }
+  .payment-modal-amount-row {
+    @apply flex justify-between items-center mb-8 border-b border-gray-100 pb-6;
+  }
+  .payment-modal-amount-label {
+    @apply text-gray-500 font-medium;
+  }
+  .payment-modal-amount-value {
+    @apply text-3xl font-bold text-darkbrown-900;
+  }
+  .payment-modal-idle {
+    @apply space-y-4;
+  }
+  .payment-modal-card {
+    @apply bg-gray-50 p-4 rounded-xl border border-gray-200 flex items-center gap-4;
+  }
+  .payment-modal-card-icon-wrapper {
+    @apply w-12 h-8 bg-gray-200 rounded flex items-center justify-center;
+  }
+  .payment-modal-card-icon {
+    @apply text-gray-500 w-5 h-5;
+  }
+  .payment-modal-card-info {
+    @apply flex-1;
+  }
+  .payment-modal-card-number {
+    @apply font-medium text-darkbrown-900 text-sm;
+  }
+  .payment-modal-card-type {
+    @apply text-xs text-gray-500;
+  }
+  .payment-modal-actions {
+    @apply flex gap-3 pt-4;
+  }
+  .payment-modal-btn-cancel {
+    @apply flex-1;
+  }
+  .payment-modal-btn-pay {
+    @apply flex-[2] shadow-lg shadow-saffron-600/30;
+  }
+  .payment-modal-processing {
+    @apply text-center py-8;
+  }
+  .payment-modal-progress-wrapper {
+    @apply relative w-20 h-20 mx-auto mb-6;
+  }
+  .payment-modal-progress-svg {
+    @apply w-full h-full;
+  }
+  .payment-modal-progress-bg {
+    @apply text-gray-100 stroke-current;
+  }
+  .payment-modal-progress-fg {
+    @apply text-saffron-500 stroke-current;
+  }
+  .payment-modal-progress-text {
+    @apply absolute inset-0 flex items-center justify-center text-lg font-bold text-darkbrown-900;
+  }
+  .payment-modal-processing-title {
+    @apply text-lg font-semibold text-darkbrown-900 mb-1;
+  }
+  .payment-modal-processing-desc {
+    @apply text-sm text-gray-500;
+  }
+  .payment-modal-success {
+    @apply text-center py-8;
+  }
+  .payment-modal-success-icon-wrapper {
+    @apply w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6;
+  }
+  .payment-modal-success-icon {
+    @apply w-10 h-10 text-green-500;
+  }
+  .payment-modal-success-title {
+    @apply text-xl font-bold text-darkbrown-900 mb-1;
+  }
+  .payment-modal-success-desc {
+    @apply text-sm text-gray-500 mb-2;
+  }
+
+  /* Home Temple Card */
+  .home-temple-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300;
+  }
+  .home-temple-card-image-wrapper {
+    @apply relative h-64 overflow-hidden;
+  }
+  .home-temple-card-image {
+    @apply w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110;
+  }
+  .home-temple-card-rating {
+    @apply absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-sm font-medium text-darkbrown-800 flex items-center gap-1 shadow;
+  }
+  .home-temple-card-rating-icon {
+    @apply w-4 h-4 text-gold-500 fill-gold-500;
+  }
+  .home-temple-card-overlay {
+    @apply absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6;
+  }
+  .home-temple-card-title {
+    @apply text-2xl font-serif text-white font-bold tracking-wide;
+  }
+  .home-temple-card-location {
+    @apply flex items-center text-gray-200 mt-2 text-sm;
+  }
+  .home-temple-card-location-icon {
+    @apply w-4 h-4 mr-1;
+  }
+  .home-temple-card-info {
+    @apply p-6;
+  }
+  .home-temple-card-desc {
+    @apply text-gray-600 line-clamp-3 mb-6 leading-relaxed;
+  }
+  .home-temple-card-footer {
+    @apply flex items-center justify-between border-t border-gray-100 pt-4;
+  }
+  .home-temple-card-timings-label {
+    @apply text-xs text-gray-500 uppercase font-semibold tracking-wider;
+  }
+  .home-temple-card-timings-value {
+    @apply text-sm text-darkbrown-800 font-medium mt-1 flex items-center;
+  }
+  .home-temple-card-timings-icon {
+    @apply w-4 h-4 mr-1 text-saffron-500;
+  }
+  .home-temple-card-btn {
+    @apply text-saffron-600 font-medium flex items-center hover:text-saffron-700 transition-colors;
+  }
+  .home-temple-card-btn-icon {
+    @apply w-4 h-4 ml-1;
+  }
+
+  /* Step Specific Additions */
+  .slots-step-icon {
+    @apply w-4 h-4 mr-2 text-saffron-500;
+  }
+  .slots-step-list {
+    @apply max-h-80 overflow-y-auto pr-2 flex flex-col;
+  }
+  .slots-step-btn {
+    @apply w-full mt-6;
+  }
+  
+  .success .title-spaced {
+    @apply text-2xl font-semibold text-darkbrown-900 mb-2;
+  }
+  .btn-dark {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm bg-darkbrown-900 text-white hover:bg-darkbrown-800;
+  }
+  .btn-icon {
+    @apply w-4 h-4 mr-2;
+  }
+  .btn-outline-full {
+    @apply flex items-center justify-center px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed bg-transparent border border-gray-200 text-gray-700 hover:bg-gray-50 w-full text-center;
+  }
+}
