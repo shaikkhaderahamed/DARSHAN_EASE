@@ -51,4 +51,4 @@ See [INSTALLATION.md](./INSTALLATION.md) for detailed setup instructions.
 
 
 ## Drive 
-- [GoogleDrive](https://drive.google.com/drive/folders/1298vCwDLPt7NnQPSBa6rjpMYuCJ6obgY?usp=drive_link).
+- [GoogleDrive](https://drive.google.com/drive/folders/1298vCwDLPt7NnQPSBa6rjpMYuCJ6obgY?usp=drive_link)
