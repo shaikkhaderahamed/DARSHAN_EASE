@@ -53,6 +53,9 @@ See [INSTALLATION.md](./INSTALLATION.md) for detailed setup instructions.
 ## Drive 
 - [GoogleDrive](https://drive.google.com/drive/folders/1298vCwDLPt7NnQPSBa6rjpMYuCJ6obgY?usp=drive_link)
 
+## Demo Video
+- [Darshan Ease](https://drive.google.com/file/d/1oB8ZN3RbZ3pwHutit8Cv62JQbj6HhdGO/view?usp=drive_link)
+
 
 ## Team Members
 - Shaik Khader Ahamed ( Team lead )
