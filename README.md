@@ -48,6 +48,3 @@ See [INSTALLATION.md](./INSTALLATION.md) for detailed setup instructions.
 - [User Guide](./USER_GUIDE.md)
 - [Admin Guide](./ADMIN_GUIDE.md)
 - [Deployment Guide](./DEPLOYMENT_GUIDE.md)
-
-## License
-MIT License
